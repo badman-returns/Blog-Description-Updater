@@ -18,5 +18,5 @@ Initially you have to create user using the public route, once logged in with us
 * Once you are done with the above steps run `npm start` to start the app.
 
 **TADAAA!!! Here we go our app will start at this point if everything is done as mention.**
-Once the application starts open POSTMAN to test the API. 
+Once the application starts open POSTMAN to test the API. Have Fun ;)
 
