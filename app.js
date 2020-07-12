@@ -27,7 +27,6 @@ app.use('/api/user', authRoute);
 // Private Route (Only authorized user can access.)
 app.use('/api/dashboard',verify,dashboard);
 
-// I didn't write this by myself, I found it somewhere & later understand it would be good practice to handle errors explicitly
 // express doesn't consider not found 404 as an error so we need to handle 404 explicitly
 // handle 404 error
 app.use(function(req, res, next) {
