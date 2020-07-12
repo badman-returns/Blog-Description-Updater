@@ -16,7 +16,6 @@ Initially you have to create user using the public route, once logged in with us
 * Next open terminal in this directory and run `npm install`. This will download all the required packages from npm.
 * Create a `.env` file in the project directory. Inside that create three variables named `DB_CONNECT , PORT , TOKEN`. Assign Database URI to `DB_CONNECT` , Port Number to `PORT` else it will run at port 3000 and `TOKEN_SECRET` to any secret. 
 * Once you are done with the above steps run `npm start` to start the app.
+* Next open POSTMAN to test the API.
 
-**TADAAA!!! Here we go our app will start at this point if everything is done as mention.**
-Once the application starts open POSTMAN to test the API. Have Fun ;)
 
