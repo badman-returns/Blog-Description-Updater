@@ -1,4 +1,4 @@
-//  Function for verifying JWT 
+//  Middleware for verifying JWT 
 
 const jwt = require('jsonwebtoken');
 
