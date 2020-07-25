@@ -12,7 +12,7 @@ Initially you have to create user using the public route, once logged in with us
 > 3. POSTMAN an API Testing Tool. You can download POSTMAN from `https://www.postman.com/downloads/`.
 ### Instructions
 * Navigate to project directory
-`  cd /REST-API-with-Node-Mongo-Express `.
+`  cd /Blog-Description-Updater `.
 * Next open terminal in this directory and run `npm install`. This will download all the required packages from npm.
 * Create a `.env` file in the project directory. Inside that create three variables named `DB_CONNECT , PORT , TOKEN`. Assign Database URI to `DB_CONNECT` , Port Number to `PORT` else it will run at port 3000 and `TOKEN_SECRET` to any secret. 
 * Once you are done with the above steps run `npm start` to start the app.
