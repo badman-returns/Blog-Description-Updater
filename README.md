@@ -1,6 +1,6 @@
 # Personal Blog Description Updater
 ## Description
-REST-CRUD is basically a REST API written in JavaScript using NodeJS that can perform CRUD (CREATE, READ, UPDATE, DELETE) Operations.
+Blog Description Updater is basically a REST API written in JavaScript using NodeJS that can perform CRUD (CREATE, READ, UPDATE, DELETE) Operations.
 Initially you have to create user using the public route, once logged in with user credentials you will get a JWT Token as a return. With that token you can access private routes where you can perform the CRUD Operations.
 ## Manuals
 ### Prerequisites:
