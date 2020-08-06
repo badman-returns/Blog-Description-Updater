@@ -9,6 +9,9 @@ const blogSchema = new Schema({
   type: String,  
   required: true,
  },
+ uri:{
+    type: String, 
+ },
  description: {
   type: String,
   required: true

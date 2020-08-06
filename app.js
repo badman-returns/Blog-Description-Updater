@@ -5,6 +5,7 @@ const app = express();
 const bodyParser = require('body-parser');
 const dotenv = require('dotenv');
 const mongoose = require('mongoose');
+const cors = require('cors')
 // Import Routes
 // authRoute contains routes for registration & login. I don't have any better name in my head.
 const authRoute = require('./routes/auth');
@@ -21,13 +22,15 @@ mongoose.connect(process.env.DB_CONNECT,{useNewUrlParser: true, useUnifiedTopolo
 
 // Middleware
 app.use(bodyParser.json());
+app.use(cors());
 
 
-// Routes MiddleWare
+
 // Public Route
 app.use('/api/user', authRoute);
 // Show existing data from database
 app.get('/api/showall', blogController.getAll);
+app.get('/api/:blogId', blogController.getById);
 // Private Route (Only authorized user can access.)
 app.use('/api/dashboard',verify,dashboard);
 
